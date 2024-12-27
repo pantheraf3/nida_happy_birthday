@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section{
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	display: flex;
+}
+.birthday{
+	height: 80vh;
+	background-image: url(Images/Nida_BG.jpg);
+	width: 300px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.welcome{
+	justify-content: center;
+	display: flex;
+	position: absolute;
+	top: -30px;
+}
+.celebrant_info{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	bottom: 45%;
+	left: 25%;
+}
+.celebrant_info input{
+	padding: 8px 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	outline: none;
+	border: 0.5px solid #000;
+}
+.submit{
+	padding: 5px 10px;
+	background-color: #cc0579e8;
+	border: none;
+	color: #fff;
+	font-size: 17px;
+	border-radius: 5px;
+}
+.padding{
+	width: 92.5%;
+	height: 9px;
+	background-color: #dd79b3;
+	position: absolute;
+	bottom: 0px;
+	display: flex;
+	justify-content: center;
+	margin-left: 11px;
+}
+.message{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 500;
+	width: 220px;
+	text-align: center;
+	background-image: linear-gradient(rgba(204, 90, 185, 0.959), rgba(216, 23, 88, 0.842)),url(Images/Nida_animation.jpg);
+	background-position: center;
+	background-size: contain;
+	padding: 15px;
+	border-radius: 5px;
+	position: absolute;
+	top: -150px;
+	left: -33px;
+	font-weight: 600;
+	/* box-shadow: 3px 2px; */
+	box-shadow: 4px 3px #00000065;
+}
+.cofetti img{
+	width: 260px;
+	position: absolute;
+	z-index: 2;
+	left: 8%;
+}
+
+.thanks{
+	padding: 5px 10px;
+	background-color: #fac5e0f8;
+	border: none;
+	color: #cc0579e8;
+	font-size: 17px;
+	border-radius: 5px;
+}
+
+@media (max-width:500px) {
+	.birthday{
+		width: 100%;
+		height: 100%;
+	}
+}
